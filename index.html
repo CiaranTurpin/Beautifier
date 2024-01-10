@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciaran's HTML Beautifier</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ciaran's HTML Beautifier</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HTML Beautifier</a></li>
+                <li><a href="css.html">CSS Beautifier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Input HTML Code</h2>
+            <textarea id="html-input" placeholder="Enter your HTML code here..."></textarea>
+            <button onclick="beautifyHTML()">Beautify HTML</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 | Ciaran Turpin</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.min.js"></script>
+    <script>
+        function beautifyHTML() {
+            const input = document.getElementById("html-input");
+            const beautifiedHTML = html_beautify(input.value);
+            input.value = beautifiedHTML;
+        }
+    </script>
+</body>
+
+</html>
