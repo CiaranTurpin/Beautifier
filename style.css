@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -37,7 +37,7 @@ main {
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #999;
     border-radius: 5px;
     resize: vertical;
     min-height: 350px;
@@ -50,6 +50,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
