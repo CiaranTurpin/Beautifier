@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="x-icon" href="favicon.ico">
 </head>
+
 <body>
     <header>
         <h1>Ciaran's CSS Beautifier</h1>
@@ -14,6 +16,7 @@
             <ul>
                 <li><a href="index.html">HTML Beautifier</a></li>
                 <li><a href="css.html">CSS Beautifier</a></li>
+                <li><a href="javascript.html">JS Beautifier</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +33,7 @@
         <p>&copy; 2024 | Ciaran Turpin</p>
     </footer>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.15.1/beautify-css.js"></script>
     <script>
         function beautifyCSS() {
             const input = document.getElementById("css-input");
@@ -39,4 +42,5 @@
         }
     </script>
 </body>
+
 </html>
