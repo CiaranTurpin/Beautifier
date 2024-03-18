@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciaran's CSS Beautifier</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Ciaran's JS Beautifier</h1>
+        <nav>
+            <ul>
+               <li><a href="index.html">HTML Beautifier</a></li>
+               <li><a href="css.html">CSS Beautifier</a></li>
+               <li><a href="javascript.html">JS Beautifier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Input JS Code</h2>
+            <textarea id="js-input" placeholder="Enter your JS code here..."></textarea>
+            <button onclick="beautifyJS()">Beautify JS</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 | Ciaran Turpin</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.15.1/beautify.js"> 
+    </script>
+    <script>
+        function beautifyJS() {
+            const input = document.getElementById("js-input");
+            const beautifiedJS = js_beautify(input.value);
+            input.value = beautifiedJS;
+        }
+    </script>
+</body>
+
+</html>
