@@ -11,6 +11,9 @@ Features
 
 How to Use
 
+Visit: https://ciaranturpin.github.io/Beautifier/
+
+or
 
 HTML Beautification:
 
