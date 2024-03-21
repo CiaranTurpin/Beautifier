@@ -26,6 +26,7 @@
             <h2>Input HTML Code</h2>
             <textarea id="html-input" placeholder="Enter your HTML code here..."></textarea>
             <button onclick="beautifyHTML()">Beautify HTML</button>
+            <button onclick="copyToClipboard()">Copy to Clipboard</button>
         </section>
     </main>
 
@@ -39,6 +40,14 @@
             const input = document.getElementById("html-input");
             const beautifiedHTML = html_beautify(input.value);
             input.value = beautifiedHTML;
+        }
+
+        function copyToClipboard() {
+            const textArea = document.getElementById('ms-input');
+            textArea.select();
+            textArea.setSelectionRange(0, 99999);
+
+            document.execCommand('copy');
         }
     </script>
 </body>
