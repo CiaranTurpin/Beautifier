@@ -1,6 +1,6 @@
 BEAUTIFIER
 
-Welcome to "Beautifier", a streamlined web tool designed for beautifying HTML and CSS code. This project is tailored to assist both developers and beginners in enhancing the readability and organization of their code.
+Welcome to "Beautifier", a streamlined web tool designed for beautifying HTML, CSS and JS code. This project is tailored to assist both developers and beginners in enhancing the readability and organization of their code.
 
 Features
 
