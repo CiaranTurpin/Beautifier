@@ -6,7 +6,9 @@ Features
 
 •HTML Beautification: Automatically formats HTML code, making it more readable and well-structured.
 
-•CSS Beautification: Improves CSS code readability by applying consistent formatting.
+•CSS Beautification: Automatically formats CSS code, improving readability by applying consistent formatting.
+
+•JS Beautification: Automatically formats JS code, streamlining syntax and ensuring coding standards for better readability.
 
 
 How to Use
@@ -23,6 +25,8 @@ HTML Beautification:
 
 •Click the "Beautify HTML" button to format your code.
 
+•Click the "Copy to clipboard" button to copy your updated.
+
 CSS Beautification:
 
 •Switch to the CSS Beautification section.
@@ -30,6 +34,8 @@ CSS Beautification:
 •Insert your CSS code into the textarea.
 
 •Click the "Beautify CSS" button to transform your code into a neatly formatted version.
+
+•Click the "Copy to clipboard" button to copy your updated.
 
 Installation
 
