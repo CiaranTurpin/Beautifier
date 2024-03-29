@@ -44,7 +44,7 @@ To set up "Beautifier" locally:
 
 1. Clone this repository to your local machine.
 2. Open the index.html file in a web browser.
-3. Start beautifying your HTML and CSS code instantly.
+3. Start beautifying your HTML, CSS and JS code instantly.
 
 Contributing
 
