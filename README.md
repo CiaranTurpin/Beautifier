@@ -2,6 +2,7 @@ BEAUTIFIER
 
 Welcome to "Beautifier", a streamlined web tool designed for beautifying HTML, CSS and JS code. This project is tailored to assist both developers and beginners in enhancing the readability and organization of their code.
 
+
 Features
 
 •HTML Beautification: Automatically formats HTML code, making it more readable and well-structured.
@@ -14,8 +15,6 @@ Features
 How to Use
 
 Visit: https://ciaranturpin.github.io/Beautifier/
-
-or
 
 HTML Beautification:
 
@@ -36,6 +35,8 @@ CSS Beautification:
 •Click the "Beautify CSS" button to transform your code into a neatly formatted version.
 
 •Click the "Copy to clipboard" button to copy your updated.
+
+or
 
 Installation
 
