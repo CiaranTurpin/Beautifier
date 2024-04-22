@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free HTML Beautifier</title>
+    <title>Ciaran's HTML Beautifier</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="icon" type="x-icon" href="images/favicon.ico">
+    <meta name="author" content="Ciaran Turpin">
+    <meta name="description" content="A simple HTML beautifier">
+    <meta name="keywords" content="HTML, Beautifier, Code, Formatting">
 </head>
 
 <body>
@@ -17,6 +20,7 @@
                 <li><a href="index.html">HTML Beautifier</a></li>
                 <li><a href="css.html">CSS Beautifier</a></li>
                 <li><a href="javascript.html">JS Beautifier</a></li>
+                <li><a href="grocery.html">Morrisons Beautifier</a></li>
             </ul>
         </nav>
     </header>
@@ -48,6 +52,8 @@
             textArea.setSelectionRange(0, 99999);
 
             document.execCommand('copy');
+
+            alert('Copied to clipboard!');
         }
     </script>
 </body>
